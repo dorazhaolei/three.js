@@ -190,7 +190,7 @@ class Skeleton {
 
 			const bone = this.bones[ i ];
 
-			if ( bone.name === name ) {
+			if ( bone.name === name || bone.uuid === name ) {
 
 				return bone;
 
